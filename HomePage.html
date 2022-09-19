@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>翊绮，生日快乐!</title>
+
+<link rel='icon' type='image/ico' href='Images/A.ico'></link> 
+
+<object type="video/x-ms-wmv" width="200" height="0">
+<param name="filename" value ="HappyBirthday(Korea).mp3"/>
+<param name="playcount" value="50"/>
+</object>
+
+<base target="sFrame"/>
+
+<style type="text/css">
+	body 	 {font-family:"Agency FB"; background-color:Pink}
+	h1 		 {color: black; padding: 0.5cm}
+	#image	 {margin: 0.5cm; vertical-align: middle}
+	#address {float: right; vertical-align: bottom; padding: 0.5cm}
+	a 		 {color: #6666FF}
+	#slidebox{position: absolute; left: 400px; top: 280px}
+	div      {text-align: center; color: white; vertical-align: bottom}
+	.auto-style1 {	margin-bottom: 0px;}
+</style>
+
+<link href="Menu.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+    function MYALERT() {
+        alert("Happy Birthday Amily, Hope You Like it. :)");
+    } MYALERT() 
+</script>
+
+
+</head>
+
+<body>
+    <script type="text/javascript" src="snow.js"></script>
+	<h1><img src="Images/1.jpg" width="200" height="300" id="image"/>
+        翊绮，生日快乐!
+    </h1>
+    
+    <div id="menu">
+		<ul class="menu">
+			<li><a href="首页.html" target="sFrame"><span>首页</span></a></li>
+
+			<li><a href="故事篇.html" target="sFrame"><span>故事篇</span></a></li>
+			
+			<li><a href="祝福篇.html" target="sFrame"><span>祝福篇</span></a></li>
+
+			<li><a href="感谢篇.html" target="sFrame"><span>感谢篇</span></a></li>
+
+            <li><a href="相片篇.html" target="_self"><span>相片篇</span></a></li>
+		</ul>
+	</div>
+
+    <div id="slidebox" class="auto-style1">
+    	<iframe name="sFrame" src="首页.html" width="800" height="700" frameborder="0" class="auto-style1">
+        </iframe>
+    </div>
+</body>
+</html>
